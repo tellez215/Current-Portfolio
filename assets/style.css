@@ -1,3 +1,7 @@
+* {
+    font-family: 'Teko', sans-serif;
+}
+
 body {
     background-color: black;
     overflow: hidden;
@@ -67,4 +71,18 @@ nav {
     font-size: 10px;
     letter-spacing: 8px;
     margin-top: 15%;
+}
+
+.card-area {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 20px 0 rgb(206, 29, 29);
+    background: rgba(255, 255, 255, );
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.card-text {
+    font-family: 'Teko', sans-serif;
 }
