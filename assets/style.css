@@ -45,33 +45,31 @@ nav {
 }
 
 .about-area {
-    font-family: 'Teko', sans-serif;
+    text-align: center;
     color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
+.about-area h3 {
+    color: red;
+}
 
-/* 
 .about-text {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: 'Teko', sans-serif;
-    color: white;
-} */
+    margin: 60px;
+    font-size: 17px
+}
 
 .projects-area {
+    padding: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     color: white;
-    font-family: 'Teko', sans-serif;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 10px;
-    letter-spacing: 8px;
-    margin-top: 9%;
+    padding-top: 10%;
+}
+
+.projects-area h2 {
+    color: red;
 }
 
 .h4 {
@@ -84,9 +82,8 @@ nav {
     justify-content: center;
     align-items: center;
     display: flex;
-    box-shadow: 0 0 20px 0 rgb(206, 29, 29);
+    box-shadow: 0 0 50px 0 rgb(206, 29, 29);
     background: rgba(255, 255, 255, );
-    padding: 20px;
     color: rgb(255, 255, 255);
     margin-top: 15%;
 }
@@ -95,18 +92,22 @@ nav {
     font-family: 'Teko', sans-serif;
 }
 
-
-/* .video {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left: 30%;
-} */
-
 .foot {
     color: white;
     background-color: #000000;
     padding: 3px;
     text-align: center;
-    margin-top: 14%;
+    margin-top: 10%;
+}
+
+.card-temp {
+    justify-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
