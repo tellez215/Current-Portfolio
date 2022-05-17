@@ -1,10 +1,11 @@
 * {
     font-family: 'Teko', sans-serif;
+    /* background-color: black; */
 }
 
 body {
     background-color: black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav {
@@ -13,7 +14,7 @@ nav {
     align-items: center;
     padding: 30px 70px;
     padding-top: 20px;
-    z-index: 9999;
+    /* z-index: 9999; */
     font-family: 'Teko', 'sans-serif';
 }
 
@@ -44,8 +45,6 @@ nav {
 }
 
 .about-area {
-    font-size: 10px;
-    letter-spacing: 8px;
     font-family: 'Teko', sans-serif;
     color: white;
     justify-content: center;
@@ -54,13 +53,15 @@ nav {
     margin-top: 10%;
 }
 
+
+/* 
 .about-text {
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: 'Teko', sans-serif;
     color: white;
-}
+} */
 
 .projects-area {
     color: white;
@@ -70,7 +71,13 @@ nav {
     display: flex;
     font-size: 10px;
     letter-spacing: 8px;
-    margin-top: 15%;
+    margin-top: 9%;
+}
+
+.h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .card-area {
@@ -81,8 +88,25 @@ nav {
     background: rgba(255, 255, 255, );
     padding: 20px;
     color: rgb(255, 255, 255);
+    margin-top: 15%;
 }
 
 .card-text {
     font-family: 'Teko', sans-serif;
+}
+
+
+/* .video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30%;
+} */
+
+.foot {
+    color: white;
+    background-color: #000000;
+    padding: 3px;
+    text-align: center;
+    margin-top: 14%;
 }
